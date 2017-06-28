@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+<!-- Website CSS style -->
+<!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/main.css"> -->
+
+<!-- Website Font style -->
+<link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+<title>KY Registration Page</title>
+</head>
+<body style="color:blue; background-color:indianRed ;">							
+	<div class="container" align="center">   
+			<div class="row main">
+				<div class="panel-heading">  
+					<div class="panel-title text-center">
+						<h1 class="title" style="color:blue; margin-left: 170px;"><strong> KY Registration</strong></h1>																
+					</div>					
+				</div>  				 
+				
+				<div class="main-login main-center">
+					<form class="form-horizontal" action="registerdbconnection.php" method="post">
+				<div class="form-group">
+				<label for="name" class="cols-sm-2 control-label" style="float: left; margin-left: 430px; font-family: Verdana; font-size: 14px">Name &emsp;</label>
+					<div class="cols-sm-10" style="width: 540px;">
+						<div class="input-group" style="margin-left: 74px;">							
+												<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+											<input type="text" class="form-control" style="font-family:verdana; font-size:15px;" name="name" placeholder="Enter your name">
+											<br>
+										</div>
+									</div>
+								</div>
+								<br>
+				<div class="form-group">
+				<label for="email" class="cols-sm-2 control-label" style="float: left; margin-left: 430px; font-size: 14px">Email &emsp;</label>
+					<div class="cols-sm-10" style="width:540px;">
+						<div class="input-group" style="margin-left: 78px;">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+								<input type="text" class="form-control" style="font-family:verdana; font-size:15px;" name="email" placeholder="Enter your email">
+								<br>
+							</div>
+						</div>
+					</div>
+					<br>
+				
+			
+						
+					<div class="form-group">
+					<label for="password" class="cols-sm-2 control-label" style="float:left; margin-left:430px; font-size:14px;">Password &emsp;</label>
+					<div class="cols-sm-10" style="width:600px;">
+						<div class="input-group" style="margin-left:50px;">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+								<input type="password" class="form-control" style="font-family:verdana; font-size:15px;" name="password" placeholder="Enter your password">
+								<br>
+							</div>
+						</div>
+					</div>
+					<br>
+				<div class="form-group">
+					<label for="college" class="cols-sm-2 control-label" style="float:left; margin-left:430px; font-size:14px;">College &emsp;&emsp;</label>
+					<div class="cols-sm-10" style="width:600px;">
+						<div class="input-group" style="margin-left:50px;">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-education"></i></span>
+								<input type="text" class="form-control" style="font-family:verdana; font-size:15px;" name="college" placeholder="Enter your college name">
+								<br>
+							</div>
+						</div>
+					</div>
+					<br>
+				<div class="form-group">
+				<label for="year" class="cols-sm-2 control-label" style="float: left; margin-left:430px;">Year &nbsp;&emsp;&emsp;&emsp;&emsp;</label>
+					<div class="cols-sm-10">
+							<div class="input-group" style="margin-left:40px;">		
+								<span class="input-group-addon" ><i class="glyphicon glyphicon-time"></i></span>
+								<select name="year" class="form-control" style="width:250px;">
+									<option>1 year</option>
+									<option>2 year</option>
+									<option>3 year</option>
+									<option>4 year</option>
+									<option>5 year</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<br>
+				<div class="form-group">
+				<label for="gender" class="cols-sm-2 control-label" style="float: left; margin-left:430px;">Gender &nbsp;&nbsp;&nbsp;&emsp;&emsp;</label>
+					<div class="cols-sm-10">
+							<div class="input-group" style="margin-left:40px;">		
+								<span class="input-group-addon" ><i class="glyphicon glyphicon-user"></i></span>
+								<select name="gender" class="form-control" style="width:250px;">
+									<option>Male</option>
+									<option>Female</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<br>
+				<div class="form-group">
+					<label for="mobile" class="cols-sm-2 control-label" style="float:left; margin-left:430px; font-size:14px;">Mobile no. &nbsp;&nbsp;</label>
+					<div class="cols-sm-10" style="width:600px;">
+						<div class="input-group" style="margin-left:50px;">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+								<input type="text" class="form-control" style="font-family:verdana; font-size:15px;" name="mobile" placeholder="Enter your Mobile No." maxlength="10">
+								<br>
+							</div>
+						</div>
+					</div>
+					<br>
+			<div class="form-group" align="center">
+				<div class="cols-sm-10">
+					<div class="input-group" >
+						<input type="submit" class="btn btn-primary btn-lg btn-block login-button" name="register" value="Register"><br>
+					</div>
+				</div>
+				</div>				
+					 </form> 
+				</div>
+				</div>
+			</div>
+</body>
+</html>
