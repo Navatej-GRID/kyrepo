@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="stylesheets/css/bootstrap.css">
+
+<!-- Website CSS style -->
+<!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/main.css"> -->
+
+<!-- Website Font style -->
+<link rel="stylesheet" href="stylesheets/css/font-awesome.min.css">
+<title>KY Registration Page</title>
+</head>
+<body style="color:blue; background-color:green;">							
+	<div class="container" align="center">   
+			<div class="row main">
+				<div class="panel-heading">  
+					<div class="panel-title text-center">
+						<h1 class="title" style="color:blue; margin-left: 170px;"><strong> KY Login</strong></h1>																
+					</div>					
+				</div>  				 
+				
+				<div class="main-login main-center">
+					<form class="form-horizontal" action="logincheck.php" method="post">
+				<div class="form-group">
+				<label for="email" class="cols-sm-2 control-label" style="float: left; margin-left: 430px; font-size: 18px">Email &emsp;</label>
+					<div class="cols-sm-10" style="width:540px;">
+						<div class="input-group" style="margin-left: 78px;">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+								<input type="text" class="form-control" style="font-family:verdana; font-size:15px;" name="email" placeholder="Enter your email">
+								<br>
+							</div>
+						</div>
+					</div>
+					<br>
+				<div class="form-group">
+					<label for="password" class="cols-sm-2 control-label" style="float:left; margin-left:430px; font-size:18px;">Password &nbsp;&nbsp;</label>
+					<div class="cols-sm-10" style="width:600px;">
+						<div class="input-group" style="margin-left:50px;">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+								<input type="password" class="form-control" style="font-family:verdana; font-size:15px;" name="password" placeholder="Enter your password">
+								<br>
+							</div>
+						</div>
+					</div>
+					<br>
+				<div class="form-group" align="center">
+				<div class="cols-sm-10">
+					<div class="input-group" >
+						<input type="submit" class="btn btn-primary btn-lg btn-block login-button" name="register" value="Login"><br>
+					</div>
+				</div>
+				</div>				
+					 </form> 
+				</div>
+				</div>
+			</div>
+</body>
+</html>
